@@ -1,0 +1,37 @@
+//Button
+.ant-btn,
+.ant-btn:hover,
+.ant-btn:focus,
+.ant-btn:active,
+.ant-btn-dangerous,
+.ant-btn-dangerous:hover,
+.ant-btn-dangerous:focus,
+.ant-btn-dangerous:active {
+  background-color: transparent;
+}
+
+.ant-btn:not(.ant-btn-text, .ant-btn-link),
+.ant-btn-dangerous {
+  border-color: $bordercolor;
+}
+
+.ant-btn:not(.ant-btn-circle) {
+  border-radius: $border-radious-sm;
+}
+
+.ant-btn-primary {
+  color: $common_extra_color_1 !important;
+}
+
+.ant-btn.ant-btn-text,
+.ant-btn.ant-btn-link,
+.ant-btn-dangerous.ant-btn-text,
+.ant-btn-dangerous.ant-btn-link,
+.ant-btn.ant-btn-text:hover,
+.ant-btn.ant-btn-text:focus,
+.ant-btn.ant-btn-link:hover,
+.ant-btn.ant-btn-link:focus,
+.ant-btn-dangerous.ant-btn-text:hover,
+.ant-btn-dangerous.ant-btn-link:focus {
+  border-color: transparent !important;
+}

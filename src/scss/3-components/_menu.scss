@@ -1,0 +1,93 @@
+.ant-menu-vertical > .ant-menu-item,
+.ant-menu-vertical-left > .ant-menu-item,
+.ant-menu-vertical-right > .ant-menu-item,
+.ant-menu-inline > .ant-menu-item,
+.ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-vertical-left > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-vertical-right > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+  height: 4.8rem;
+  line-height: 4.8rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.ant-menu-item .ant-menu-item-icon,
+.ant-menu-submenu-title .ant-menu-item-icon,
+.ant-menu-item .anticon,
+.ant-menu-submenu-title .anticon {
+  min-width: 2.1rem;
+  font-size: 2.1rem;
+}
+
+.ant-menu-inline.ant-menu-root .ant-menu-item > .ant-menu-title-content,
+.ant-menu-inline.ant-menu-root
+  .ant-menu-submenu-title
+  > .ant-menu-title-content {
+  margin-left: 1.6rem;
+}
+
+.ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after,
+.ant-menu-vertical-right .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+  border-width: 0.4rem;
+  border-top-left-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
+}
+
+.ant-menu-light .ant-menu-item:hover,
+.ant-menu-light .ant-menu-item-active,
+.ant-menu-light .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-light .ant-menu-submenu-active,
+.ant-menu-light .ant-menu-submenu-title:hover {
+  background-color: rgba($color: $bordercolor, $alpha: $opacity-low);
+}
+.ant-layout-sider {
+  border-right: 1px solid rgba($color: $bordercolor, $alpha: $opacity-low);
+}
+
+.ant-layout-sider {
+  flex: 0 0 28rem !important;
+  max-width: 28rem !important;
+  min-width: 28rem !important;
+  width: 28rem !important;
+}
+
+.ant-layout-sider.ant-layout-sider-collapsed {
+  flex: 0 0 8rem !important;
+  max-width: 8rem !important;
+  min-width: 8rem !important;
+  width: 8rem !important;
+}
+
+.ant-layout-sider.ant-layout-sider-collapsed .main-menu-header-box {
+  display: flex;
+  padding: 0 !important;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 576px) {
+  .ant-layout-sider {
+  }
+}
+
+@media (min-width: 768px) {
+  .ant-layout-sider {
+  }
+}
+
+@media (min-width: 992px) {
+  .ant-layout-sider {
+  }
+}
+
+@media (min-width: 1200px) {
+  .ant-layout-sider {
+    // flex: 0 0 28rem !important;
+    // max-width: 28rem !important;
+    // min-width: 28rem !important;
+    // width: 28rem !important;
+  }
+}

@@ -1,0 +1,20 @@
+.ant-carousel {
+  .slick-dots {
+    li {
+      width: 1rem;
+      margin: 0 0.3rem;
+      &.slick-active {
+        width: 1rem;
+      }
+
+      button {
+        width: 0.8rem;
+        height: 0.8rem;
+        border-radius: 0.4rem;
+      }
+    }
+  }
+  .slick-dots-bottom {
+    bottom: -3rem;
+  }
+}

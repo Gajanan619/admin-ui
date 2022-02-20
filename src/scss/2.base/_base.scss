@@ -1,0 +1,80 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+html {
+  //16px is browser default font size so by default 1rem = 16px
+  //but we want 1rem = 10px so we devide default-font-size / required-font-size
+  //and whatever result come(62.5%) we can assign as global fontsize)
+
+  //1rem = 10px
+  //10/16px = 62.5%
+  font-size: 62.5%;
+}
+
+body {
+  transition: all 1s;
+  box-sizing: border-box;
+}
+
+// @media (min-width: 576px) {
+//   body {
+//     background-color: #642de3;
+//   }
+// }
+
+// @media (min-width: 768px) {
+//   body {
+//     background-color: #34eab9;
+//   }
+// }
+
+// @media (min-width: 992px) {
+//   body {
+//     background-color: #4791ff;
+//   }
+// }
+
+// @media (min-width: 1200px) {
+//   body {
+//     background-color: #265fd5;
+//   }
+// }
+
+// @media (min-width: 1600px) {
+//   body {
+//     background-color: #265fd5;
+//   }
+// }
+
+.trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}

@@ -1,0 +1,64 @@
+@import "./1.abstracts/variables";
+
+@import "./2.base/base";
+@import "./2.base/helper";
+
+@import "./3-components/loginSlider";
+@import "./3-components/button";
+@import "./3-components/divider";
+@import "./3-components/alert";
+@import "./3-components/checkbox";
+@import "./3-components/radio";
+@import "./3-components/switch";
+@import "./3-components/message";
+@import "./3-components/slider";
+@import "./3-components/rating";
+@import "./3-components/progress";
+@import "./3-components/dropdown";
+@import "./3-components/menu";
+@import "./3-components/picker";
+@import "./3-components/drawer";
+@import "./3-components/modal";
+@import "./3-components/tabs";
+@import "./3-components/mainHeader";
+@import "./3-components/infobox";
+@import "./3-components/table";
+@import "./3-components/input";
+
+@import "./5-pages/login";
+@import "./5-pages/home";
+
+@import "./6-themes/all-theme/light/light-blue";
+@import "./6-themes/all-theme/light/light-green";
+@import "./6-themes/all-theme/light/light_brown";
+@import "./6-themes/all-theme/light/light_cyan";
+@import "./6-themes/all-theme/light/light_orange";
+@import "./6-themes/all-theme/light/light_pink";
+@import "./6-themes/all-theme/light/light_purple";
+@import "./6-themes/all-theme/light/light_red";
+@import "./6-themes/all-theme/light/light_teal";
+
+@import "./6-themes/all-theme/dark/dark-blue";
+@import "./6-themes/all-theme/dark/dark-green";
+@import "./6-themes/all-theme/dark/dark_brown";
+@import "./6-themes/all-theme/dark/dark_cyan";
+@import "./6-themes/all-theme/dark/dark_orange";
+@import "./6-themes/all-theme/dark/dark_pink";
+@import "./6-themes/all-theme/dark/dark_purple";
+@import "./6-themes/all-theme/dark/dark_red";
+@import "./6-themes/all-theme/dark/dark_teal";
+
+@import "./6-themes/all-color/blue";
+@import "./6-themes/all-color/green";
+@import "./6-themes/all-color/purple";
+@import "./6-themes/all-color/cyan";
+@import "./6-themes/all-color/orange";
+@import "./6-themes/all-color/red";
+@import "./6-themes/all-color/pink";
+@import "./6-themes/all-color/teal";
+@import "./6-themes/all-color/brown";
+
+@import "./6-themes/light";
+@import "./6-themes/dark";
+
+@import "./custom";

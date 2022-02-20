@@ -1,0 +1,68 @@
+.dark {
+  &.brown {
+    //Button
+    .ant-btn-primary {
+      background-color: $DarkBrown-primary;
+      border-color: $DarkBrown-primary;
+    }
+
+    .ant-btn-primary:hover,
+    .ant-btn-primary:focus {
+      background-color: $DarkBrown-secondary;
+      border-color: $DarkBrown-secondary;
+    }
+
+    .ant-btn-link,
+    .ant-picker-today-btn {
+      color: $DarkBrown-primary;
+    }
+
+    .ant-btn-link:hover,
+    .ant-btn-link:focus,
+    .ant-btn-link:active,
+    .ant-picker-today-btn:hover,
+    .ant-picker-today-btn:focus,
+    .ant-picker-today-btn:active {
+      color: $DarkBrown-secondary;
+    }
+
+    //Switch
+    .ant-switch-checked {
+      background-color: $DarkBrown-primary;
+    }
+
+    //Menu
+    .ant-menu .text-color-1.ant-menu-item-icon,
+    .ant-menu .text-color-2.ant-menu-item-icon,
+    .ant-menu .text-color-3.ant-menu-item-icon,
+    .ant-menu .text-color-4.ant-menu-item-icon,
+    .ant-menu .text-color-5.ant-menu-item-icon,
+    .ant-menu .text-color-6.ant-menu-item-icon,
+    .ant-menu .text-color-7.ant-menu-item-icon,
+    .ant-menu .text-color-8.ant-menu-item-icon,
+    .ant-menu .text-color-9.ant-menu-item-icon {
+      color: $common_dark_extra_color_5 !important;
+    }
+
+    .ant-menu-item-selected .text-color-1.ant-menu-item-icon,
+    .ant-menu-item-selected .text-color-2.ant-menu-item-icon,
+    .ant-menu-item-selected .text-color-3.ant-menu-item-icon,
+    .ant-menu-item-selected .text-color-4.ant-menu-item-icon,
+    .ant-menu-item-selected .text-color-5.ant-menu-item-icon,
+    .ant-menu-item-selected .text-color-6.ant-menu-item-icon,
+    .ant-menu-item-selected .text-color-7.ant-menu-item-icon,
+    .ant-menu-item-selected .text-color-8.ant-menu-item-icon,
+    .ant-menu-item-selected .text-color-9.ant-menu-item-icon,
+    .ant-menu-submenu-selected .text-color-1.ant-menu-item-icon,
+    .ant-menu-submenu-selected .text-color-2.ant-menu-item-icon,
+    .ant-menu-submenu-selected .text-color-3.ant-menu-item-icon,
+    .ant-menu-submenu-selected .text-color-4.ant-menu-item-icon,
+    .ant-menu-submenu-selected .text-color-5.ant-menu-item-icon,
+    .ant-menu-submenu-selected .text-color-6.ant-menu-item-icon,
+    .ant-menu-submenu-selected .text-color-7.ant-menu-item-icon,
+    .ant-menu-submenu-selected .text-color-8.ant-menu-item-icon,
+    .ant-menu-submenu-selected .text-color-9.ant-menu-item-icon {
+      color: $DarkBrown-primary !important;
+    }
+  }
+}

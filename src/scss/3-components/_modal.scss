@@ -1,0 +1,11 @@
+.ant-modal-header {
+  border-color: rgba($color: $bordercolor, $alpha: $opacity-low);
+  border-radius: $border-radious $border-radious 0 0;
+}
+.ant-modal-content {
+  border-radius: $border-radious;
+}
+
+.ant-modal-footer {
+  border-color: rgba($color: $bordercolor, $alpha: $opacity-low);
+}

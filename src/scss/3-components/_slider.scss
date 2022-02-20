@@ -1,0 +1,15 @@
+.ant-slider-rail,
+.ant-slider:hover .ant-slider-rail {
+  background-color: rgba($color: $bordercolor, $alpha: $opacity-medium);
+}
+
+.ant-slider-disabled .ant-slider-track,
+.ant-slider-disabled .ant-slider-handle,
+.ant-slider-disabled .ant-slider-dot {
+  background-color: $bordercolor !important;
+}
+
+.ant-slider-disabled .ant-slider-handle,
+.ant-slider-disabled .ant-slider-dot {
+  border-color: $bordercolor !important;
+}

@@ -1,0 +1,26 @@
+//date-picker
+.ant-picker {
+  border-color: rgba($color: $bordercolor, $alpha: $opacity-low);
+}
+
+.ant-picker-suffix,
+.ant-picker-separator,
+.ant-picker-focused .ant-picker-separator {
+  color: $bordercolor;
+}
+
+.ant-picker-panel .ant-picker-footer {
+  border-top-color: rgba($color: $bordercolor, $alpha: $opacity-low);
+}
+
+.ant-picker-panel,
+.ant-picker-datetime-panel .ant-picker-time-panel,
+.ant-picker-time-panel-column:not(:first-child) {
+  border-color: rgba($color: $bordercolor, $alpha: $opacity-low);
+}
+
+.ant-picker-header {
+  border-bottom-color: rgba($color: $bordercolor, $alpha: $opacity-low);
+}
+
+//time-picker

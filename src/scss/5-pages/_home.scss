@@ -1,0 +1,138 @@
+.menu-icon {
+  font-size: 2rem;
+}
+.ant-menu-sub.ant-menu-inline {
+  background-color: #fff;
+}
+
+.setting-theme-box {
+  margin: 1rem 0;
+  &.light {
+    background-color: $lightBg;
+    color: $light-font-color;
+  }
+
+  &.dark {
+    background-color: $darkBg;
+    color: $dark-font-color;
+  }
+}
+
+.setting-color-box {
+  box-shadow: none !important;
+  border: 1px solid rgba($color: $bordercolor, $alpha: 0.2) !important;
+
+  &.color-1 {
+    .box {
+      background-color: $color-1;
+    }
+  }
+
+  &.active.color-1 {
+    border: 2px solid $color-1 !important;
+    background-color: rgba($color: $color-1, $alpha: $opacity-low);
+  }
+
+  &.color-2 {
+    .box {
+      background-color: $color-2;
+    }
+  }
+
+  &.active.color-2 {
+    border: 2px solid $color-2 !important;
+    background-color: rgba($color: $color-2, $alpha: $opacity-low);
+  }
+
+  &.color-3 {
+    .box {
+      background-color: $color-3;
+    }
+  }
+
+  &.active.color-3 {
+    border: 2px solid $color-3 !important;
+    background-color: rgba($color: $color-3, $alpha: $opacity-low);
+  }
+
+  &.color-4 {
+    .box {
+      background-color: $color-4;
+    }
+  }
+
+  &.active.color-4 {
+    border: 2px solid $color-4 !important;
+    background-color: rgba($color: $color-4, $alpha: $opacity-low);
+  }
+
+  &.color-5 {
+    .box {
+      background-color: $color-5;
+    }
+  }
+
+  &.active.color-5 {
+    border: 2px solid $color-5 !important;
+    background-color: rgba($color: $color-5, $alpha: $opacity-low);
+  }
+
+  &.color-6 {
+    .box {
+      background-color: $color-6;
+    }
+  }
+
+  &.active.color-6 {
+    border: 2px solid $color-6 !important;
+    background-color: rgba($color: $color-6, $alpha: $opacity-low);
+  }
+
+  &.color-7 {
+    .box {
+      background-color: $color-7;
+    }
+  }
+
+  &.active.color-7 {
+    border: 2px solid $color-7 !important;
+    background-color: rgba($color: $color-7, $alpha: $opacity-low);
+  }
+
+  &.color-8 {
+    .box {
+      background-color: $color-8;
+    }
+  }
+
+  &.active.color-8 {
+    border: 2px solid $color-8 !important;
+    background-color: rgba($color: $color-8, $alpha: $opacity-low);
+  }
+
+  &.color-9 {
+    .box {
+      background-color: $color-9;
+    }
+  }
+
+  &.active.color-9 {
+    border: 2px solid $color-9 !important;
+    background-color: rgba($color: $color-9, $alpha: $opacity-low);
+  }
+
+  .ant-card-body {
+    padding: 1.2rem;
+  }
+
+  .box {
+    width: 2rem;
+    height: 2rem;
+    background-color: aquamarine;
+    border-radius: 50%;
+  }
+}
+
+.ant-layout-header {
+  border-bottom: 1px solid rgba($color: $bordercolor, $alpha: $opacity-low);
+}

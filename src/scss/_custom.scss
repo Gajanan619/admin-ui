@@ -1,0 +1,28 @@
+.ant-menu {
+  border-right: none;
+}
+
+//card
+.ant-card-head {
+  border-color: $bordercolor;
+}
+
+//Icon
+.header-notification-container .icon {
+  font-size: $xlarge-font;
+}
+
+.ant-drawer-header {
+  border-bottom-color: $bordercolor;
+}
+
+//Modal
+.ant-scrolling-effect {
+  width: 100% !important;
+}
+
+//Backdrop Mask
+.ant-drawer.ant-drawer-open .ant-drawer-mask,
+.ant-modal-mask {
+  backdrop-filter: blur(0.15rem);
+}

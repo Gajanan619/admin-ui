@@ -1,0 +1,27 @@
+.ant-checkbox {
+  top: 0.4rem;
+}
+
+.ant-checkbox-inner {
+  background-color: transparent;
+  border-color: rgba($color: $bordercolor, $alpha: 0.8);
+  border-radius: $border-radious-sm;
+  border-width: 0.2rem;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.ant-checkbox-indeterminate .ant-checkbox-inner {
+  background-color: transparent;
+  border-color: rgba($color: $bordercolor, $alpha: 0.8);
+}
+
+.ant-checkbox-checked::after {
+  border-radius: $border-radious-sm;
+  border-width: 0.2rem;
+}
+
+.ant-checkbox-disabled .ant-checkbox-inner {
+  background-color: rgba($color: $bordercolor, $alpha: 0.8) !important;
+  border-color: rgba($color: $bordercolor, $alpha: 0.2) !important;
+}
